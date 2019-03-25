@@ -3,14 +3,50 @@
 <head>
 	<title>Jom Lopez - Web Designer</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="style" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 </head>
 <style>
-	@import url('https://fonts.googleapis.com/css?family=Overpass:400,700');
+	@import url('https://fonts.googleapis.com/css?family=Overpass:400,700,900');
 	body {
 		font-family: "Overpass", sans-serif; }
+
+	#site-name { 
+		font-weight: 900;
+		font-size: 3.5rem;
+		margin: 0 }
+	a { 
+		text-decoration: none; 
+		color: #000;
+		background-size: 100% 0%; }
+	a:hover { 
+		background-image: -webkit-linear-gradient(30deg, #24FFC3 0%, #8fd3f4 100%);
+		background-image: -o-linear-gradient(30deg, #24FFC3 0%, #02EBAB 100%);
+		background-image: linear-gradient(120deg, #24FFC3 0%, #02EBAB 100%);
+		background-repeat: no-repeat;
+		background-size: 100% 0.3em;
+		background-position: 0 88%;
+		transition: background-size 0.25s ease-in; }
+	.header { 
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 97vh; }
 	.centered { 
 		text-align: center }
+	.social-menu {
+		list-style: none; 
+		padding: 0;
+		font-weight: 900;
+		font-size: 1.4rem }
+	.social-menu li { 
+		line-height: 1.5 } 
+	@media (min-width: 414px) { 
+		.social-menu { 
+			display: flex }
+		.social-menu li { 
+			padding: 0.5rem 0.8rem; } }
 	@media (max-width: 414px) { 
 		.container { 
 			width: 80%;
@@ -21,6 +57,13 @@
 	<div class="container"> 
 		<div class="header centered"> 
 			<h1 id="site-name">JOM LOPEZ</h1>
+			<ul class="social-menu">
+				<li><a href="https://www.behance.net/jomlopez">Behance</a></li>
+				<li><a href="https://dribbble.com/jomlopez">Dribbble</a></li>
+				<li><a href="https://www.instagram.com/jom.lopez/">Instagram</a></li>
+				<li><a href="https://www.linkedin.com/in/jomlopez/">LinkedIn</a></li>
+				<li><a href="https://medium.com/@jomlopez">Medium</a></li>
+			</ul>
 		</div>
 	</div>
 </body>
