@@ -1,70 +1,46 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Jom Lopez - Web Designer</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-</head>
-<style>
-	@import url('https://fonts.googleapis.com/css?family=Overpass:400,700,900');
-	body {
-		font-family: "Overpass", sans-serif; }
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Jom Lopez | Web Designer</title>
+		<meta name="description" content="Web design and experiences">
+		<meta name="keywords" content="web design service, graphic design, ui design, freelance, frontend, interactive, web">
+		<meta name="author" content="Jom Lopez">
+		<link rel="stylesheet" type="text/css" href="style.7fae4879.css">
+		<script>document.documentElement.className = "js";
 
-	#site-name { 
-		font-weight: 900;
-		font-size: 3.5rem;
-		margin: 0 }
-	a { 
-		text-decoration: none; 
-		color: #000;
-		background-size: 100% 0%; }
-	a:hover { 
-		background-image: -webkit-linear-gradient(30deg, #24FFC3 0%, #8fd3f4 100%);
-		background-image: -o-linear-gradient(30deg, #24FFC3 0%, #02EBAB 100%);
-		background-image: linear-gradient(120deg, #24FFC3 0%, #02EBAB 100%);
-		background-repeat: no-repeat;
-		background-size: 100% 0.3em;
-		background-position: 0 88%;
-		transition: background-size 0.25s ease-in; }
-	.header { 
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		width: 100%;
-		height: 97vh; }
-	.centered { 
-		text-align: center }
-	.social-menu {
-		list-style: none; 
-		padding: 0;
-		font-weight: 900;
-		font-size: 1.4rem }
-	.social-menu li { 
-		line-height: 1.5 } 
-	@media (min-width: 414px) { 
-		.social-menu { 
-			display: flex }
-		.social-menu li { 
-			padding: 0.5rem 0.8rem; } }
-	@media (max-width: 414px) { 
-		.container { 
-			width: 80%;
-			margin: 0 auto }
-	}
-</style>
-<body>
-	<div class="container"> 
-		<div class="header centered"> 
-			<h1 id="site-name">JOM LOPEZ</h1>
-			<ul class="social-menu">
-				<li><a href="https://www.behance.net/jomlopez">Behance</a></li>
-				<li><a href="https://dribbble.com/jomlopez">Dribbble</a></li>
-				<li><a href="https://www.instagram.com/jom.lopez/">Instagram</a></li>
-				<li><a href="https://www.linkedin.com/in/jomlopez/">LinkedIn</a></li>
-				<li><a href="https://medium.com/@jomlopez">Medium</a></li>
-			</ul>
-		</div>
-	</div>
-</body>
+			var supportsCssVars = function supportsCssVars() {
+  				var e,
+      			t = document.createElement("style");
+  				return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;
+			};
+
+			supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body>
+		<main>
+			<div class="frame">
+				<h1 class="frame__title">JL</h1>
+				<div class="frame__links">
+					<a href="https://www.behance.net/jomlopez">Works</a>
+					<a href="mailto:hello@jomlopez.com">Contact</a>
+				</div>
+				<!-- <h3 class="frame__initials">J</h3> -->
+			</div>
+			<div class="content">
+				<p>Hi, I'm Jom and I <em>mostly</em> design experiences for the <a>web</a>. I have worked with businesses and various organizations. If you'd like me to help you with your next project, <a>let's talk</a>!</p>
+			</div>
+		</main>
+		<svg class="cursor" width="280" height="280" viewBox="0 0 280 280">
+			<defs>
+				<filter id="filter-1" x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox">
+					<feTurbulence type="fractalNoise" baseFrequency="0.02 0.15" numOctaves="3" result="warp"></feTurbulence>
+					<feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="0" in="SourceGraphic" in2="warp"></feDisplacementMap>
+				</filter>
+			</defs>
+			<circle class="cursor__inner" cx="140" cy="140" r="50"></circle>
+		</svg>
+		<script src="index.2a5d9725.js"></script>
+	</body>
 </html>
